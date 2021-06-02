@@ -1,0 +1,99 @@
+.calc_negrito {
+    font-weight: bold;
+    color:black;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 14px;
+    
+}
+#calc_dano{
+
+    color: black;
+}
+
+#borda_tela{
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.selecao{
+    color:black;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+
+#botao_dano{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 90px;
+    font-size: 16px;
+    padding: 14px;
+    margin: 50px;
+}
+#div_arma {
+
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+
+#div_personagem {
+
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+
+.arma{
+    
+    text-align: center;
+}
+
+.pers{
+  
+    text-align: center;
+}
+
+.selElementoComBorda{
+    border-radius: 15px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+h2{
+    text-align: center;
+}
